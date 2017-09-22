@@ -21,15 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uE4-19-OJu">
-                                <rect key="frame" x="294" y="910" width="180" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="RESET"/>
-                                <connections>
-                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fah-Fl-v1q"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U9T-tW-0Qx" userLabel="card_1">
                                 <rect key="frame" x="72" y="121" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -661,7 +652,7 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lpZ-5d-uJC" userLabel="card_19">
-                                <rect key="frame" x="388" y="736" width="150" height="150"/>
+                                <rect key="frame" x="388" y="753" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pgq-hC-OLT" userLabel="back">
@@ -695,8 +686,17 @@
                                     </view>
                                 </subviews>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uE4-19-OJu">
+                                <rect key="frame" x="294" y="910" width="180" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="RESET"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fah-Fl-v1q"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YzX-3h-cXl" userLabel="card_20">
-                                <rect key="frame" x="546" y="744" width="150" height="150"/>
+                                <rect key="frame" x="546" y="753" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gBR-4Z-9uQ" userLabel="back">
@@ -735,17 +735,49 @@
                     </view>
                     <connections>
                         <outlet property="back_1" destination="94Y-Uy-itA" id="SaJ-aQ-kC3"/>
+                        <outlet property="back_10" destination="zNw-Tm-qgb" id="img-7F-hza"/>
+                        <outlet property="back_11" destination="IW6-oY-vAV" id="AIB-ff-PpZ"/>
+                        <outlet property="back_12" destination="Orc-Xf-nBE" id="MKc-fl-Kna"/>
+                        <outlet property="back_13" destination="zLS-L1-SdE" id="x7B-jt-XCE"/>
+                        <outlet property="back_14" destination="5HN-VP-uyt" id="blM-4u-Pfq"/>
+                        <outlet property="back_15" destination="SJX-fc-tLu" id="x0y-7d-Vas"/>
+                        <outlet property="back_16" destination="nFb-4j-WD9" id="ld6-vO-YZ1"/>
+                        <outlet property="back_17" destination="hv4-ht-466" id="2k8-5p-iOa"/>
+                        <outlet property="back_18" destination="fBJ-Yr-DQv" id="Tih-Kj-ilC"/>
+                        <outlet property="back_19" destination="Pgq-hC-OLT" id="hAc-Hd-UoV"/>
                         <outlet property="back_2" destination="YYw-yg-Aq9" id="ykL-d9-2CN"/>
+                        <outlet property="back_20" destination="gBR-4Z-9uQ" id="zDf-VX-gvf"/>
                         <outlet property="back_3" destination="4fB-Cm-wmd" id="QmR-RT-pRx"/>
                         <outlet property="back_4" destination="aAr-E4-smJ" id="HiZ-di-3cY"/>
+                        <outlet property="back_5" destination="iBm-zO-Oiv" id="dp9-vu-02T"/>
+                        <outlet property="back_6" destination="y9H-Ef-NDo" id="TwB-5F-fCA"/>
+                        <outlet property="back_7" destination="cQW-O7-FZN" id="amq-Cd-5Wh"/>
+                        <outlet property="back_8" destination="s6h-r0-hJ3" id="OeD-YX-Xav"/>
+                        <outlet property="back_9" destination="SGj-5A-h0R" id="jQq-24-kPf"/>
                         <outlet property="card_1" destination="U9T-tW-0Qx" id="G6W-qI-ya5"/>
                         <outlet property="card_2" destination="mab-it-NUS" id="EzG-aS-UrY"/>
                         <outlet property="card_3" destination="Ywb-t4-ZrA" id="hcS-mX-9yt"/>
                         <outlet property="card_4" destination="frP-CL-0PL" id="5Og-4s-qPd"/>
                         <outlet property="front_1" destination="TiY-K8-oQI" id="67c-vu-tzR"/>
+                        <outlet property="front_10" destination="aDJ-Rt-lY9" id="flo-wV-toJ"/>
+                        <outlet property="front_11" destination="f5J-QH-0dq" id="arh-3E-Trd"/>
+                        <outlet property="front_12" destination="XwF-NN-czf" id="56T-zb-CeI"/>
+                        <outlet property="front_13" destination="CyV-KT-YcB" id="Cud-5v-dY8"/>
+                        <outlet property="front_14" destination="bT5-Mv-fgs" id="lqa-wf-J4G"/>
+                        <outlet property="front_15" destination="s2v-w0-vrG" id="gQn-lH-RoV"/>
+                        <outlet property="front_16" destination="w4H-sp-sP2" id="ldq-hR-Nvw"/>
+                        <outlet property="front_17" destination="wj6-ir-qfo" id="Vti-wG-bpK"/>
+                        <outlet property="front_18" destination="LVv-Q7-i5N" id="76r-F7-fy0"/>
+                        <outlet property="front_19" destination="lCS-Q2-uLX" id="ghd-E5-TpT"/>
                         <outlet property="front_2" destination="XYB-Ih-0U8" id="m3w-i8-ggZ"/>
+                        <outlet property="front_20" destination="tEY-gv-dfG" id="cV5-kE-tlR"/>
                         <outlet property="front_3" destination="3rf-4B-Wyo" id="dn5-9o-TdB"/>
                         <outlet property="front_4" destination="9E6-B9-8EU" id="457-Nu-t9K"/>
+                        <outlet property="front_5" destination="f5K-Wp-jK6" id="GcK-sM-e7F"/>
+                        <outlet property="front_6" destination="f80-o1-DAO" id="hoD-GN-eZM"/>
+                        <outlet property="front_7" destination="Hf2-i0-i9K" id="Hl9-33-RGW"/>
+                        <outlet property="front_8" destination="xRc-mQ-U1L" id="6jT-R2-1ya"/>
+                        <outlet property="front_9" destination="TUK-Go-4wl" id="kOY-HC-pf7"/>
                         <outlet property="imgView1" destination="jC9-Mq-1IN" id="L0k-1f-uDo"/>
                         <outlet property="imgView2" destination="Ye5-gN-It4" id="QWc-tq-ewn"/>
                         <outlet property="imgView3" destination="7lf-9n-kFZ" id="7EY-Eq-0o3"/>

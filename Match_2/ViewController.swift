@@ -11,6 +11,49 @@ class ViewController: UIViewController {
     @IBOutlet weak var front_3: UIView!
     @IBOutlet weak var back_4: UIView!
     @IBOutlet weak var front_4: UIView!
+    @IBOutlet weak var back_5: UIView!
+    @IBOutlet weak var front_5: UIView!
+    @IBOutlet weak var back_6: UIView!
+    @IBOutlet weak var front_6: UIView!
+    @IBOutlet weak var back_7: UIView!
+    @IBOutlet weak var front_7: UIView!
+    @IBOutlet weak var back_8: UIView!
+    @IBOutlet weak var front_8: UIView!
+    @IBOutlet weak var back_9: UIView!
+    @IBOutlet weak var front_9: UIView!
+    @IBOutlet weak var back_10: UIView!
+    @IBOutlet weak var front_10: UIView!
+    @IBOutlet weak var back_11: UIView!
+    @IBOutlet weak var front_11: UIView!
+    
+    @IBOutlet weak var back_12: UIView!
+    @IBOutlet weak var front_12: UIView!
+    @IBOutlet weak var back_13: UIView!
+    @IBOutlet weak var front_13: UIView!
+    @IBOutlet weak var back_14: UIView!
+    @IBOutlet weak var front_14: UIView!
+    @IBOutlet weak var back_15: UIView!
+    @IBOutlet weak var front_15: UIView!
+    @IBOutlet weak var back_16: UIView!
+    @IBOutlet weak var front_16: UIView!
+    @IBOutlet weak var back_17: UIView!
+    @IBOutlet weak var front_17: UIView!
+    @IBOutlet weak var back_18: UIView!
+    @IBOutlet weak var front_18: UIView!
+    @IBOutlet weak var back_19: UIView!
+    @IBOutlet weak var front_19: UIView!
+    @IBOutlet weak var back_20: UIView!
+    @IBOutlet weak var front_20: UIView!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     @IBOutlet weak var imgView1: UIImageView!
     @IBOutlet weak var imgView2: UIImageView!
